@@ -1,0 +1,28 @@
+{
+    "name": "tarea1escalabs",
+    "version": "1.0.0",
+    "description": "curson_nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon -r esm server.js",
+        "server": "nodemon server.js",
+        "client": "npm run start --prefix client"
+    },
+    "author": "NAV",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "mongodb": "^4.2.2",
+        "mongoose": "^6.1.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15",
+        "passport": "^0.3.2",
+        "stripe": "^4.23.1",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.2.0"
+    }
+}
