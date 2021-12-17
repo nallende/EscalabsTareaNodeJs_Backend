@@ -1,6 +1,6 @@
 import User from "../models/user";
 
-export const register = async(req, res) => {
+export const registro = async(req, res) => {
     console.log(req.body);
     const { nombre, email, password } = req.body;
     // validacion
